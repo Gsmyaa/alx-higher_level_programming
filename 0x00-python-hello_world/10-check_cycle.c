@@ -9,7 +9,7 @@
 int check_cycle(listint_t *list)
 {
 	listint_t *sound = list;
-	listint_t *light= list;
+	listint_t *light = list;
 
 	if (!list)
 		return (0);
