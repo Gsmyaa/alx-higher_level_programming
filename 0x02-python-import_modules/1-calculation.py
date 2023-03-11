@@ -5,11 +5,11 @@ if __name__ == "__main__":
     a = 10
     b = 5
 
-#compute addition
+# compute addition
     print("{} + {} = {}".format(a, b, add(a, b)))
-#compute substraction
+# compute substraction
     print("{} - {} = {}".format(a, b, sub(a, b)))
-#compute multiplication
+# compute multiplication
     print("{} * {} = {}".format(a, b, mul(a, b)))
-#compute division
+# compute division
     print("{} / {} = {}".format(a, b, div(a, b)))
