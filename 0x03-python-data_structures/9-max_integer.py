@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def max_integer(my_list=[]):
-    if my_list:	
+    if my_list:
         larg = my_list[0]
         for i in range(len(my_list)):
             if my_list[i] > larg:
@@ -8,4 +8,3 @@ def max_integer(my_list=[]):
         return larg
     else:
         return None
-    
