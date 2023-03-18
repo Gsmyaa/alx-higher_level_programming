@@ -8,6 +8,5 @@ def uppercase(str):
             else:
                 c = str[i]
             print("{}".format(c) if i == n else "{}".format(c), end="")
-#print()
     else:
         print()
