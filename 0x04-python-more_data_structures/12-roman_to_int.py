@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
-    if roman_sting is None:
-        return 0
-    else:
+    if roman_string and type(roman_string) == str:
         rom_val = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 100}
         int_val = 0
         for i in range(len(roman_string)):
@@ -11,3 +9,5 @@ def roman_to_int(roman_string):
             else:
                 int_val += rom_val[roman_string[i]]
         return int_val
+    else:
+        return 0
