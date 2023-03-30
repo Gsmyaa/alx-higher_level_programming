@@ -3,9 +3,11 @@
 
 
 class Square:
-    """Instantiation with size"""
+    """Instantiation with size,
+       by private instance size
+    """
     def __init__(self, size):
         """Args:
                 size(int): size of new square.
         """
-        self.__size == size
+        self.__size = size
