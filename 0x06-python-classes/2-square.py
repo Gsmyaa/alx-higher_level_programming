@@ -15,9 +15,7 @@ class Square:
             size: size of the new square.
         """
         self.__size = size
-        try:
-            assert type(size) == int
-        except:
+        if not isinstance(size, int):
             raise TypeError("size must be an integer")
-        if size < 0:
+        elif size < 0:
             raise ValueError("size must be >= 0")
