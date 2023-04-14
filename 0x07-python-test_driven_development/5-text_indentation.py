@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines functions that prints a text with 2 new lines after each of these characters: .  ? and :"""
+"""Defines functions that prints a new line after .?:"""
 
 
 def text_indentation(text):
@@ -21,4 +21,4 @@ def text_indentation(text):
             else:
                 print(i, end="")
     else:
-       raise TypeError("text must be a string")
+        raise TypeError("text must be a string")
