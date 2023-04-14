@@ -22,12 +22,19 @@ def text_indentation(text):
             if i != " ":
                 break
             c += 1
+        a = 0
         for i in range(e):
+            if a == 1:
+                if text[i] == " ":
+                    continue
+                else:
+                    a = 0
             if c > 0:
                 if text[i] == " ":
                     c -= 1
                     continue
             if text[i] in [".", "?", ":"]:
+                a = 1
                 print(text[i])
                 print()
             else:
