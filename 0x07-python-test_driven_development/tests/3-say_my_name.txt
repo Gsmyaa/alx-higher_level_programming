@@ -1,0 +1,26 @@
+===========================
+How to use 3-say_my_name.py
+===========================
+
+say_my_name(...) prints names.
+
+say_my_name(...) recieves two arguments type string.
+    
+    >>> say_my_name = __import__('3-say_my_name').say_my_name
+
+    >>> say_my_name("John", "Smith")
+    My name is John Smith
+
+    when first_name is not string
+    >>> say_my_name(3, "Smith")
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+    when last_name is not string
+    >>> say_my_name("John", 3)
+    Traceback (most recent call last):
+    TypeError: last_name must be a string
+
+    when only first_name exists
+    >>> say_my_name("John")
+    My name is John 
