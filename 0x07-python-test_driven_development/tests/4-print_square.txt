@@ -1,0 +1,35 @@
+============================
+How to use 4-print_square.py
+============================
+
+print_square(...) prints a square with character '#', by recieving argument size.
+
+size:
+    is input arguments, and it is the size length of the square.
+
+    >>> print_square = __import__("4-print_square").print_square
+
+
+size must be ant integer.
+    >>> print_square(4)
+    ####
+    ####
+    ####
+    ####
+
+size must be >= 0
+    >>> print_square(0)
+    
+
+    >>> print_square(-3)
+    Traceback (most recent call last):
+    ValueError: size must be >= 0
+
+size must be an iteger
+    >>> print_square("3")
+    Traceback (most recent call last):
+    TypeError: size must be an integer
+
+    >>> print_square(0.5)
+    Traceback (most recent call last):
+    TypeError: size must be an integer
