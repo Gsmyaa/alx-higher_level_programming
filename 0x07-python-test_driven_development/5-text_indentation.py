@@ -37,6 +37,9 @@ def text_indentation(text):
                 a = 1
                 print(text[i])
                 print()
+            elif text[i] == "\n":
+                a = 1
+                print()
             else:
                 print(text[i], end="")
     else:
