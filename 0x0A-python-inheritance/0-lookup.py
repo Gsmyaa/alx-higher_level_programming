@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines module returns the list of available attributes and methods of an object
+"""Defines module return list of available attributes and methods of an object
 """
 
 
