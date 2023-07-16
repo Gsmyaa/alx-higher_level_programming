@@ -1,6 +1,6 @@
 -- a script that lists all the cities of California 
     USE hbtn_0d_usa;
- SELECT *
+ SELECT id, name
    FROM cities
   WHERE state_id = (
 	SELECT id 
